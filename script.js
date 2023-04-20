@@ -31,6 +31,10 @@ class Teacher extends Person {
 	}
 }
 
+pers = new Person("john", 23);
+pers.name = "nadeem";
+console.log(pers.name);
+
 // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;
